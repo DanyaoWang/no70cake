@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include("../partials/head/head-meta.html")
+    <title>Contact eCommerce HTML Template - FreshCart </title>
+    @@include("../partials/head/head-links.html") @@include("../partials/head/analytics-code.html")
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    @@include("../partials/navbar.html")
+    <main>
+        <!-- section -->
+
+        <section class="my-lg-14 my-8">
+            <!-- container -->
+            <div class="container">
+                <div class="row">
+                    <!-- col -->
+                    <div class="offset-lg-2 col-lg-8 col-12">
+                        <div class="mb-8">
+                            <!-- heading -->
+                            <h1 class="h3">Place an Order/Ask a Question</h1>
+                            <li class="lead mb-0">This form is for placing an online order. Your email must be replied for the order confirmation.</li>
+                            <li class="lead mb-0"> If you are sending this email for asking questions, please reach out to the FAQ page first. <a href="@@webRoot/pages/blog.html">FAQ</a></li>
+                        </div>
+                        <!-- form -->
+                        <form class="row" method="post" action="mailto: wdy910908@hotmail.com?subject=ContactNo70Cake" enctype="text/plain">
+                            <!-- input -->
+                            <div class="col-md-6 mb-3">
+                                <!-- input -->
+                                <label class="form-label" for="name"> Last Name <span class="text-danger">*</span></label>
+                                <input type="text" id="lname" class="form-control" name="name" placeholder="Enter Your Name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <!-- input -->
+                                <label class="form-label" for="phone"> Phone <span class="text-danger">*</span></label>
+                                <input type="text" id="phone" name="phone" class="form-control" placeholder="Your Phone Number" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <!-- input -->
+                                <label for="cake">Cake Type</label>
+                                <select id="cake" name="cake" size="3" class="dropdown-item">
+                                  <option value="mousse">Mousse Cake</option>
+                                  <option value="swiss">Siwss Roll</option>
+                                  <option value="mille">Mille Crepes</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <!-- input -->
+                                <label for="cake">Size</label>
+                                <select id="cake" name="cake" size="3" class="dropdown-item">
+                                <option value="mousse">Mousse Cake</option>
+                                <option value="swiss">Siwss Roll</option>
+                                <option value="mille">Mille Crepes</option>
+                              </select>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <!-- input -->
+                                <label for="cake">Size</label>
+                                <select id="cake" name="cake" size="3" class="dropdown-item">
+                                <option value="mousse">Mousse Cake</option>
+                                <option value="swiss">Siwss Roll</option>
+                                <option value="mille">Mille Crepes</option>
+                              </select>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <!-- input -->
+                                <label class="form-label" for="comments"> Question </label>
+                                <textarea rows="3" name="comments" class="form-control" placeholder="Additional Comments"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <!-- btn -->
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+
+    <!-- Footer -->
+    @@include("../partials/footer.html")
+    <!-- Javascript-->
+    @@include("../partials/scripts.html")
+
+
+
+
+</body>
+
+</html>
